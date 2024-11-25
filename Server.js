@@ -11,11 +11,6 @@ app.use(express.json());
 app.use(cors())
 
 const pusher = new Pusher({
-  appId: "1343466",
-  key: "56fc8ad686887feca24c",
-  secret: "2d7d0ac7167e928b16f2",
-  cluster: "ap2",
-  useTLS: true
 });
  
 const dbUrl = "mongodb+srv://suba:suba@streamapps.gpmyi.mongodb.net/whatsappclone?retryWrites=true&w=majority";
